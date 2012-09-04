@@ -1,0 +1,8 @@
+
+git add .  
+git commit -m "xxxxx" 
+git push -u origin master   
+
+如果报错 可能没空间 下面命令申请500M空间
+git config http.postBuffer 524288000
+这个表示500M 
