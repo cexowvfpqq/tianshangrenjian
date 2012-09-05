@@ -1,0 +1,86 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="reminder_minutes_labels">
+        <item>‎1 मिनट‎</item>
+        <item>‎5 मिनट‎</item>
+        <item>10 मिनट</item>
+        <item>"15 मिनट"</item>
+        <item>"20 मिनट"</item>
+        <item>"25 मिनट"</item>
+        <item>30 मिनट</item>
+        <item>45 मिनट</item>
+        <item>1 घंटे</item>
+        <item>2 घंटे</item>
+        <item>3 घंटे</item>
+        <item>12 घंटे</item>
+        <item>24 घंटे</item>
+        <item>24 दिन</item>
+        <item>1 सप्ताह</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>"कोई नहीं"</item>
+        <item>‎1 मिनट‎</item>
+        <item>‎5 मिनट‎</item>
+        <item>10 मिनट</item>
+        <item>"15 मिनट"</item>
+        <item>"20 मिनट"</item>
+        <item>"25 मिनट"</item>
+        <item>30 मिनट</item>
+        <item>45 मिनट</item>
+        <item>1 घंटे</item>
+        <item>2 घंटे</item>
+        <item>3 घंटे</item>
+        <item>12 घंटे</item>
+        <item>24 घंटे</item>
+        <item>24 दिन</item>
+        <item>1 सप्ताह</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>अलर्ट</item>
+        <item>स्थिति बार अधिसूचना</item>
+        <item>बंद </item>
+    </string-array>
+    <string-array name="availability">
+        <item>व्यस्त</item>
+        <item>उपलब्ध</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>"डिफ़ॉल्ट"</item>
+        <item>निजी</item>
+        <item>सार्वजनिक</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>पहला</item>
+        <item>सेकंड</item>
+        <item>"तीसरा"</item>
+        <item>चौथा</item>
+        <item>अंतिम</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(कोई प्रतिसाद नहीं)</item>
+        <item>हां</item>
+        <item>"शायद</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>हां</item>
+        <item>"शायद</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>केवल यह ईवेंट</item>
+        <item>"यह और आगामी ईवेंट"</item>
+        <item>सभी ईवेंट</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>"यह और आगामी ईवेंट"</item>
+        <item>सभी ईवेंट</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
+        <item>केवल यह ईवेंट</item>
+        <!-- The choice for responding to all instances of a repeating event -->
+        <item>श्रृंखला में सभी ईवेंट</item>
+    </string-array>
+</resources>
