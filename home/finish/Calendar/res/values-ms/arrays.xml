@@ -1,0 +1,86 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="reminder_minutes_labels">
+        <item>1 min</item>
+        <item>5 mins</item>
+        <item>10 minit</item>
+        <item>"15 minit"</item>
+        <item>"20 minit"</item>
+        <item>"25 minit"</item>
+        <item>30 minit</item>
+        <item>"30 minit"</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>"2 jam"</item>
+        <item>12 jam</item>
+        <item>24 Jam</item>
+        <item>"24 jam"</item>
+        <item>1 Minggu</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>"Tiada"</item>
+        <item>1 min</item>
+        <item>5 mins</item>
+        <item>10 minit</item>
+        <item>"15 minit"</item>
+        <item>"20 minit"</item>
+        <item>"25 minit"</item>
+        <item>30 minit</item>
+        <item>"30 minit"</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>"2 jam"</item>
+        <item>12 jam</item>
+        <item>24 Jam</item>
+        <item>"24 jam"</item>
+        <item>1 Minggu</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>Isyarat</item>
+        <item>Pemberitahuan bar status</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="availability">
+        <item>"Sibuk"</item>
+        <item>"Ada"</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>"Lalai"</item>
+        <item>Peribadi</item>
+        <item>"Awam"</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>"pertama"</item>
+        <item>"saat"</item>
+        <item>"ketiga"</item>
+        <item>"keempat"</item>
+        <item>"terakhir"</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>"Tiada jawapan"</item>
+        <item>Ya</item>
+        <item>"Mungkin"</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Ya</item>
+        <item>"Mungkin"</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>"Acara ini sahaja"</item>
+        <item>"Acara ini dan acara masa depan"</item>
+        <item>"Semua acara"</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>"Acara ini dan acara masa depan"</item>
+        <item>"Semua acara"</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
+        <item>"Acara ini sahaja"</item>
+        <!-- The choice for responding to all instances of a repeating event -->
+        <item>"Semua acara dalam siri"</item>
+    </string-array>
+</resources>

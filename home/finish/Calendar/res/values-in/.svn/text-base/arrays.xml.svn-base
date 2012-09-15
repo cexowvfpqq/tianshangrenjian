@@ -1,0 +1,86 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="reminder_minutes_labels">
+        <item>1 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>"15 menit"</item>
+        <item>"20 menit"</item>
+        <item>"25 menit"</item>
+        <item>30 menit</item>
+        <item>"45 menit"</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>"3 jam"</item>
+        <item>12 jam</item>
+        <item>24 Jam</item>
+        <item>"2 hari"</item>
+        <item>1 Minggu</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>"Tak Satu Pun"</item>
+        <item>1 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>"15 menit"</item>
+        <item>"20 menit"</item>
+        <item>"25 menit"</item>
+        <item>30 menit</item>
+        <item>"45 menit"</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>"3 jam"</item>
+        <item>12 jam</item>
+        <item>24 Jam</item>
+        <item>"2 hari"</item>
+        <item>1 Minggu</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>Awas</item>
+        <item>"Pemberitahuan bilah status"</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="availability">
+        <item>"Sibuk"</item>
+        <item>"Senggang"</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>"Bawaan"</item>
+        <item>Privasi</item>
+        <item>"Umum"</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>"pertama"</item>
+        <item>"kedua"</item>
+        <item>"ketiga"</item>
+        <item>"keempat"</item>
+        <item>"terakhir"</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>"(Tidak ada tanggapan)"</item>
+        <item>Ya</item>
+        <item>" Mungkin hadir"</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Ya</item>
+        <item>" Mungkin hadir"</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>"Hanya acara ini"</item>
+        <item>"Acara &amp; mendatang ini"</item>
+        <item>"Semua acara"</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>"Acara &amp; mendatang ini"</item>
+        <item>"Semua acara"</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
+        <item>"Hanya acara ini"</item>
+        <!-- The choice for responding to all instances of a repeating event -->
+        <item>"Semua acara dalam rangkaian"</item>
+    </string-array>
+</resources>

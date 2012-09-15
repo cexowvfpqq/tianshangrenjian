@@ -1,0 +1,13 @@
+<apps>
+	<app>
+	<appName>com.android.phone</appName>
+	<isNeedRoot>1</isNeedRoot>
+	</app>
+
+
+	<app>
+	<appName>com.android.quicksearch</appName>
+	<isNeedRoot>0</isNeedRoot>
+	
+	</app>
+</apps>

